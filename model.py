@@ -113,4 +113,3 @@ if __name__ == '__main__':
     # db.session.add(login)
     # db.session.commit()
     #db.drop_all()
-
