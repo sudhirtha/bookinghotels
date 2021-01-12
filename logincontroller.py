@@ -1,7 +1,7 @@
 from model import *
 from flask import render_template,request,session,url_for,redirect
 
-@app.route('/login/',methods=['GET','POST'])
+@app.route('/',methods=['GET','POST'])
 def login_user():
     msg=''
     if request.method=='POST':
