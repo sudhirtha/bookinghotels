@@ -105,11 +105,4 @@ else:
     login=Login(username='admin',password='admin123')
     db.session.add(login)
     db.session.commit()
-if __name__ == '__main__':
-    # db.drop_all()
-    #db.create_all()
 
-    # login=Login(username='admin',password='admin123')
-    # db.session.add(login)
-    # db.session.commit()
-    #db.drop_all()
