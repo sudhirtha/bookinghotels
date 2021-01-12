@@ -1,5 +1,5 @@
 from model import *
-configuration import app,db
+from configuration import app,db
 from flask import request,render_template,session
 
 
