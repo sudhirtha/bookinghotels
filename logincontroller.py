@@ -44,7 +44,7 @@ def hotel_booking():
 def room_booking(user):
     if 'userinfo' in session:
         return render_template('booking_room.html',user=user,)
-    return render_template('login.html', resp='')
+    return render_template('login.html', resp=',')
 
 
 
